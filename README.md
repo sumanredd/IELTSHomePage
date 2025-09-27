@@ -31,6 +31,8 @@ http://localhost:3000
 ```
 
 **Design Choices**
+
+
 **Color Scheme**: Soft and professional colors (#2563eb for primary actions, white and light gray backgrounds) to keep the interface clean and readable.
 
 **Typography**: Used Arial/Helvetica for headings and body text for clarity and simplicity.
