@@ -52,5 +52,11 @@ React Icons
 React Spinners
 ```
 
+yaml
+
+
+
+---
+
 **License**
 This project is for educational purposes and not intended for commercial use.
