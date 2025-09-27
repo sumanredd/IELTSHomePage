@@ -21,46 +21,44 @@ A responsive and modern landing page for a fictional IELTS Institute built with 
    ```bash
    git clone <repository-url>
    cd <repository-folder>
-Install dependencies:
 
-bash
-Copy code
-npm install
+**Install dependencies:**
+
+```bash
+
 Start the development server:
 
-bash
-Copy code
 npm start
 Open the app in your browser at:
 
-arduino
-Copy code
 http://localhost:3000
-Design Choices
-Color Scheme: Soft and professional colors (#2563eb for primary actions, white and light gray backgrounds) to keep the interface clean and readable.
+```
 
-Typography: Used Arial/Helvetica for headings and body text for clarity and simplicity.
+**Design Choices**
+**Color Scheme**: Soft and professional colors (#2563eb for primary actions, white and light gray backgrounds) to keep the interface clean and readable.
 
-Icons: React Icons (react-icons/ri) were used to visually represent features and improve user experience.
+**Typography**: Used Arial/Helvetica for headings and body text for clarity and simplicity.
 
-Carousel: Testimonials carousel with centered images and smooth transitions to highlight student stories.
+**Icons**: React Icons (react-icons/ri) were used to visually represent features and improve user experience.
 
-Responsiveness: Fully responsive layout using CSS Flexbox and media queries to adapt for mobile and desktop.
+**Carousel**: Testimonials carousel with centered images and smooth transitions to highlight student stories.
 
-User Experience: Added hover effects, smooth transitions, and a loading spinner for a polished feel.
+**Responsiveness**: Fully responsive layout using CSS Flexbox and media queries to adapt for mobile and desktop.
 
-Dependencies
+**User Experience**: Added hover effects, smooth transitions, and a loading spinner for a polished feel.
+
+**Dependencies**
+```bash
 React.js
-
 React Icons
-
 React Spinners
+```
 
 License
 This project is for educational purposes and not intended for commercial use.
 
 yaml
-Copy code
+
 
 ---
 
