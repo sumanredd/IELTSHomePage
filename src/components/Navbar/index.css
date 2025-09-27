@@ -1,47 +1,18 @@
-nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 5px;
-   background-color: #fff;
-   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+.navbar .nav-link {
+  color: rgb(58, 56, 56); 
 }
 
-/* .IELTSlogo{
-width: auto;
-height:135px;
-} */
-.Logo{
-    margin: 0;
-    padding: 0;
-    padding-bottom: 14px;
-}
-.NavUl{
-    list-style: none;
-    display: flex;
-    gap: 25px;
-}
-.li{
-    font-family: Arial, Helvetica, sans-serif;
-    cursor: pointer;
-    position: relative;
-}
-.li::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0; 
-    height: 3px; 
-    width: 0; 
-    background-color: #000; 
-    transition: width 0.3s ease; 
+.navbar .nav-link:hover {
+  color: #2563eb; 
 }
 
-.li:hover::after {
-    width: 100%; 
+.logoText{
+    font-size: 20px;
+    padding-bottom: 6px;
 }
+
 .loginBtn{
-    height: 27px;
+    height: 28px;
     width: 80px;
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
@@ -51,6 +22,7 @@ height:135px;
     border: none;
     border-radius: 3px;
     cursor: pointer;
+    padding:0px;
 }
 .loginBtn:hover{
      background-color: #1d4ed8;
