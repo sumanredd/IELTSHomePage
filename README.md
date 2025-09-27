@@ -30,7 +30,7 @@ Open the app in your browser at:
 http://localhost:3000
 ```
 
-**Design Choices**
+## Design Choices
 
 
 **Color Scheme**: Soft and professional colors (#2563eb for primary actions, white and light gray backgrounds) to keep the interface clean and readable.
