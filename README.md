@@ -52,9 +52,6 @@ React Icons
 React Spinners
 ```
 
-yaml
-
-
 
 ---
 
