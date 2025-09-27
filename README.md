@@ -17,10 +17,6 @@ A responsive and modern landing page for a fictional IELTS Institute built with 
 
 ## Setup Instructions
 
-1. **Clone the repository:**
-   ```bash
-   git clone <repository-url>
-   cd <repository-folder>
 
 **Install dependencies:**
 
@@ -54,14 +50,5 @@ React Icons
 React Spinners
 ```
 
-License
+**License**
 This project is for educational purposes and not intended for commercial use.
-
-yaml
-
-
----
-
-If you want, I can also **add screenshots and live demo link sections** in this README to make it look more professional and GitHub-ready.  
-
-Do you want me to do that?
