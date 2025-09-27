@@ -3,11 +3,20 @@
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
-    justify-content: center;   
+    justify-content: center; 
+}
+.featureHeading{
+  font-size: 27px;
+  text-align: center;
+  padding-bottom: 10px;
+  text-decoration: underline;
+  color: #111;
+  padding-top: 20px;
+
 }
 .FeaturesCard{
     background-color: white;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* spreads shadow all around */ /* nice soft shadow */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); 
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     margin-top: 20px;
     width: 280px;

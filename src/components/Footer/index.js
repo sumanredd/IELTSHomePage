@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-container">
         
-        {/* Left Section */}
+    
         <div className="footer-section">
           <h2 className="footer-logo">IELTS Institute</h2>
           <p className="footer-text">
@@ -14,7 +14,7 @@ const Footer = () => {
           </p>
         </div>
 
-        {/* Middle Section */}
+  
         <div className="footer-section">
           <h3 className="footer-heading">Quick Links</h3>
           <ul className="footer-links">
@@ -26,7 +26,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Right Section */}
+    
         <div className="footer-section">
           <h3 className="footer-heading">Contact</h3>
           <p>📍 Hyderabad, India</p>

@@ -1,13 +1,11 @@
-/* Wrapper for reviews */
+
 .reviewsWrapper {
   width: 100%;
   overflow: hidden;
   position: relative;
   padding: 40px 0;
-  background-color: #f9f9f9; /* optional background */
 }
 
-/* Section heading */
 .TestimonialsHeading {
   font-size: 27px;
   text-align: center;
@@ -16,14 +14,12 @@
   color: #111;
 }
 
-/* Carousel container */
 .carousel {
   position: relative;
   width: 100%;
   height: 300px;
 }
 
-/* Card styling */
 .card {
   position: absolute;
   top: 50%;
@@ -37,7 +33,7 @@
   border-radius: 12px;
   box-shadow: 0 8px 20px rgba(0,0,0,0.1);
 
-  /* Center content */
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -46,14 +42,14 @@
   padding: 20px;
 }
 
-/* Active card */
+
 .card.active {
   transform: translate(-50%, -50%) scale(1);
   opacity: 1;
   z-index: 3;
 }
 
-/* Right side card */
+
 .card.right {
   transform: translate(calc(-50% + 120px), -50%) scale(0.85);
   opacity: 0.5;
@@ -61,7 +57,7 @@
   z-index: 2;
 }
 
-/* Left side card */
+
 .card.left {
   transform: translate(calc(-50% - 120px), -50%) scale(0.85);
   opacity: 0.5;
@@ -69,7 +65,7 @@
   z-index: 2;
 }
 
-/* Hidden cards */
+
 .card.hidden {
   opacity: 0;
   transform: translate(-50%, -50%) scale(0.8);

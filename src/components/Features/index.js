@@ -25,6 +25,8 @@ const features = [
 
 const Features=()=>{
     return(
+        <>
+        <h1 className="featureHeading">What We Offer</h1>
         <ul className="featureContainer">
             {features.map((each)=>(
                 <li className="FeaturesCard">
@@ -35,6 +37,7 @@ const Features=()=>{
                 </li>
             ))}
         </ul>
+        </>
     )
 }
 export default Features
