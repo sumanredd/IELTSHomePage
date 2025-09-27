@@ -1,0 +1,52 @@
+.heroSecContainer {
+  position: relative;
+  height: 400px;
+  width: 100%;
+  background: url("https://i.ibb.co/F4PFW0XB/Banner.png") no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; 
+  color: white;
+}
+
+
+.heroOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(50, 47, 47, 0.4); 
+  z-index: 1;
+}
+
+.contentBg {
+  position: relative;
+  z-index: 2;
+  padding: 30px;
+  max-width: 600px;
+}
+
+.heroSecHeading {
+  font-size: 48px;
+  margin: 0 0 15px 0;
+}
+
+.heroSecSubtext {
+  font-size: 19px;
+  margin: 0 0 20px 0;
+  color: #f1f1f1;
+}
+
+.heroBtn {
+  padding: 12px 25px;
+  font-size: 16px;
+  background-color: #2563eb; 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.heroBtn:hover {
+  background-color: #1d4ed8;
+}

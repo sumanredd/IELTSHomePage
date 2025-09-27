@@ -1,0 +1,48 @@
+.featureContainer{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;   
+}
+.FeaturesCard{
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* spreads shadow all around */ /* nice soft shadow */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    margin-top: 20px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    border-radius: 9px;
+}
+.FeaturesCard:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 23px rgba(0,0,0,0.25); 
+    border-radius: 0px;
+}
+
+
+.cardHeading {
+    font-family: 'Poppins', 'Arial', sans-serif; 
+    font-size: 15px;
+    font-weight: 600; 
+    margin: 0;
+    padding-top: 10px;
+    color: #222; 
+}
+
+.cardSubtext {
+    font-family: 'Roboto', 'Arial', sans-serif; 
+    font-size: 12.5px;
+    font-weight: 400; 
+    color: #777; 
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+
