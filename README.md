@@ -23,10 +23,12 @@ A responsive and modern landing page for a fictional IELTS Institute built with 
 ```bash
 
 Start the development server:
+npm install
 
 npm start
-Open the app in your browser at:
-
+```
+## Open the app in your browser at:
+```bash
 http://localhost:3000
 ```
 
